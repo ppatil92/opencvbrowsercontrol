@@ -1,7 +1,9 @@
 # opencvbrowsercontrol
 create keyboard events using open cv hand gesture
 
-original credits goes to below project for hand gesture recognition
+you will need open cv4 and python3 to run this project
+
+original credits goes to project link for hand gesture recognition
 https://github.com/lzane/Fingers-Detection-using-OpenCV-and-Python
 
 
@@ -11,7 +13,7 @@ https://github.com/lzane/Fingers-Detection-using-OpenCV-and-Python
     press 'ESC' to exit
 
 
-## Below code in the py script is to handle keyboard events
+## Below code in the handgesturekeyboard.py script is to handle keyboard events
 ```
 from pynput.keyboard import Key, Controller
 from pynput import keyboard
