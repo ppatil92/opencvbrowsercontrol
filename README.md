@@ -10,3 +10,28 @@ https://github.com/lzane/Fingers-Detection-using-OpenCV-and-Python
     press 'r' to reset the backgroud model
     press 'ESC' to exit
 
+```
+from pynput.keyboard import Key, Controller
+from pynput import keyboard
+
+keyboardController = Controller()
+ if triggerSwitch is True:
+                if isFinishCal is True and cnt == 1:
+                    print (cnt)
+		    keyboardController.press(Key.up)
+                    keyboardController.release(Key.up)
+		elif isFinishCal is True and cnt == 2:
+                      print (cnt)
+		      keyboardController.press(Key.down)
+                      keyboardController.release(Key.down)
+		elif isFinishCal is True and cnt == 3:
+                      print (cnt)
+		      keyboardController.press(Key.left)
+                      keyboardController.release(Key.left)
+		elif isFinishCal is True and cnt == 4:
+                      print (cnt)
+		      keyboardController.press(Key.right)
+                      keyboardController.release(Key.right)
+		    
+
+```
