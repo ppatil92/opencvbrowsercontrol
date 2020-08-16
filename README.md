@@ -10,6 +10,8 @@ https://github.com/lzane/Fingers-Detection-using-OpenCV-and-Python
     press 'r' to reset the backgroud model
     press 'ESC' to exit
 
+
+##Below code in the py script is to handle keyboard events
 ```
 from pynput.keyboard import Key, Controller
 from pynput import keyboard
